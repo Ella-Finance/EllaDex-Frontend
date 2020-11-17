@@ -1,0 +1,274 @@
+p {
+  /* font-family: 'Comfortaa', cursive; */
+  font-weight: normal;
+  /* position: relative; */
+  font-style: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* color: #e3e3e3; */
+  /* overflow-x: hidden; */
+}
+
+.banner-3 {
+  position: relative;
+  padding: 15% 0 10%;
+  overflow: hidden;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/farmer.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-info {
+  position: relative;
+  z-index: 999;
+}
+
+.font-white {
+  color: #ffffff;
+}
+
+.tw-6 {
+  font-weight: 600;
+}
+.tw-7 {
+  font-weight: 700;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.button.bt-white {
+  color: #333;
+  background: #fff;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.font-lemon {
+  color: #25d5e4;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 30px;
+  border: none;
+  font-weight: 800;
+  font-size: 16px;
+  position: relative;
+  background: #f9b707;
+  /* font-family: 'Comfortaa', cursive; */
+  display: inline-block;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+}
+
+.banner-3 .ico-img {
+  margin-top: 10px;
+  bottom: -45px;
+  right: -60px;
+  width: 95%;
+}
+
+.overview-block-ptb {
+  padding: 50px 0;
+}
+
+.overview-block-pb {
+  padding: 0 0 50px;
+}
+
+.heading-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.heading-title p {
+  padding: 0 100px;
+  display: block;
+  /* font-family: Comfortaa, cursive; */
+}
+
+.heading-title.left {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.heading-title small {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+}
+
+.heading-title .title {
+  position: relative;
+  padding-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.small-icon {
+  background: rgba(206, 209, 215, 0.5);
+  text-align: center;
+  padding: 30px 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.cus-dark {
+  background: #050715;
+}
+
+.cus-dark1 {
+  background: #0b0f28;
+}
+
+.w-218 {
+  width: 218.8px;
+}
+
+.trans {
+  transform: translate3d(-656px, 0px, 0px);
+  transition: all 0.25s ease 0s;
+  width: 2626px;
+}
+
+.mg-reset {
+  margin: 15px 0;
+}
+
+.project-team,
+.project-team .team-info:before,
+.project-team .team-info:hover:before,
+.project-team .team-info:hover .team-description,
+.project-team .team-info:hover .team-s-media,
+.project-team .team-info .team-s-media {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.project-team .team-info {
+  text-align: center;
+  overflow: hidden;
+  border-radius: 130px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  border: 2px solid #050715;
+  position: relative;
+  margin: 0 auto;
+  transition: all 0.5s ease 0s;
+}
+
+.project-team .team-info:hover:before {
+  opacity: 0.8;
+}
+
+.project-team .team-info:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #25d5e4;
+  opacity: 0;
+}
+
+.project-team .team-info img {
+  vertical-align: bottom;
+  border-radius: 130px;
+}
+
+.project-team .team-info .team-description {
+  position: absolute;
+  width: 100%;
+  top: -10%;
+  left: 0;
+  color: #fff;
+  margin-top: -20px;
+  padding: 0;
+  opacity: 0;
+}
+
+.project-team .team-info:hover .team-description {
+  top: 40%;
+  opacity: 1;
+}
+
+.project-team .team-info:hover .team-s-media {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.project-team .team-info .team-s-media {
+  position: absolute;
+  left: 0;
+  bottom: -10%;
+  width: 100%;
+  opacity: 0;
+}
+
+.project-team .team-info .team-s-media ul {
+  background: #ffffff;
+  width: 100%;
+  display: inline-block;
+}
+
+.project-team .team-info .team-s-media ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.project-team .team-info .team-s-media ul li a {
+  font-size: 16px;
+  padding: 0 5px;
+  color: #f9b707;
+  display: inline-block;
+  float: none;
+  line-height: 45px;
+  text-align: center;
+  background: transparent;
+}
+
+.partners {
+  position: relative;
+  z-index: 99;
+}
+
+.py-60 {
+  padding: 40px 0;
+}
+
+.canvas-div {
+  background: black;
+  opacity: 0.9;
+}
+
+.large-p {
+  font-size: 19px !important;
+}
